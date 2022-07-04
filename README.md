@@ -1,5 +1,5 @@
 # Web Courses prototype
-Prototype of the Reactor Lab desktop software 
+Prototype of the Reactor Lab desktop software access of lab modules over the Internet.
 
 Files with the file name extension .rev are LiveCode files. Revolution (.rev) was the previous name of LiveCode. See LiveCode at [livecode.com](https://livecode.com). LiveCode, as of 2022, can open .rev files. 
 
