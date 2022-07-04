@@ -1,0 +1,69 @@
+File structure on server:
+
+Folder: ERC_courses
+
+    file: script_list.txt
+    file: wc_updater.rev
+
+(note: client copy of erc_directory, on first going online,
+downloads wc_updater.rev and runs it and checks client and
+server copies of script_list.txt for more recent
+copies of the files at this level - in development, you can 
+save a copy of wc_updater.rev to client for inspection)
+
+    file: erc_directory.rev
+    file: comm_scripts.rev
+    file: liburl.rev
+
+    Folder: Arizona_server
+
+        file: module_list.txt
+        file: carbon_bed.rev
+        file: photo_filter.rev
+        Folder: carbon_bed_support (files not listed here)
+        Folder: photo_filter_support (files not listed here)
+
+(note: for labs with components such as carbon_bed.rev,
+see handler startMeUp in lab stack script)
+
+    Folder: San_Diego_server
+
+        file: module_list.txt
+        file: about.rev
+        file: WC_Architecture.rev
+        file: Vac_System.rev
+        file: photo_filter_simple.rev
+
+-------------------
+-------------------
+CONTENTS OF 
+    Folder: ERC_courses
+        file: script_list.txt
+---
+comm_scripts.rev $ 20030621  
+liburl.rev $ 20030526 
+erc_directory.rev $ 20030621 
+-------------------
+-------------------     
+CONTENTS OF
+    Folder: Arizona_server
+        file: module_list.txt
+---
+Carbon Bed Adsorber $ carbon_bed.rev $ 20030621 
+Photocatalytic Filter $ photo_filter.rev $ 20030621
+
+(note: 1st item is listing in Directory, 2nd item is
+stack file name, 3rd item is file date (version))
+
+-------------------
+-------------------
+CONTENTS OF
+    Folder: San_Diego_server
+        file: module_list.txt
+---
+About Web Courses $ about.rev $ 20030621  
+Web Courses Architecture $ WC_Architecture.rev $ 20030526 
+Simple Photo Filter $ photo_filter_simple.rev $ 20030526 
+Vacuum System $ Vac_System.rev $ 20030526 
+-------------------
+-------------------
